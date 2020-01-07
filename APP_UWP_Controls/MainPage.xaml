@@ -5,14 +5,23 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Custom="using:ClassLibraryBotonDegradado"
+    xmlns:Panel="using:ClassLibraryPanelCircular"
     x:Class="APP_UWP_Controls.MainPage"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
 
-        <Custom:BotonDegradado ColorInicial="AliceBlue" ColorFinal="Red" HorizontalAlignment="Left" Height="100" Margin="66,51,0,0" VerticalAlignment="Top" Width="239" RenderTransformOrigin="-1.487,-0.064">           
-        </Custom:BotonDegradado>
+        <Panel:PanelCircular >
+            <TextBlock>1</TextBlock>
+            <TextBlock>2</TextBlock>
+            <TextBlock>3</TextBlock>
+            <TextBlock>4</TextBlock>
+            <TextBlock>5</TextBlock>
+            <TextBlock>6</TextBlock>
+            <Custom:BotonDegradado ColorInicial="AliceBlue" ColorFinal="Red" HorizontalAlignment="Left" Height="100" Margin="66,51,0,0" VerticalAlignment="Top" Width="239" RenderTransformOrigin="-1.487,-0.064">
+            </Custom:BotonDegradado>
 
-    </Grid>
+        </Panel:PanelCircular>
+       
+
 </Page>

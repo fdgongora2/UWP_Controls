@@ -55,8 +55,7 @@ namespace ClassLibraryBotonDegradado
         // Using a DependencyProperty as the backing store for ColorFinal.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty ColorFinalProperty =
             DependencyProperty.Register("ColorFinal", typeof(Color), typeof(BotonDegradado), new PropertyMetadata(Colors.White, OnColorChanged));
-
-
+        
 
         public BotonDegradado()
         {
@@ -78,7 +77,5 @@ namespace ClassLibraryBotonDegradado
             brush.GradientStops.Add(gradientStop2);
             this.boton.Background = brush;
         }
-
-
     }
 }

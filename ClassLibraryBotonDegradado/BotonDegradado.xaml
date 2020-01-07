@@ -10,7 +10,6 @@
     d:DesignWidth="400">
 
     <Grid>
-
         <Button x:Name="boton" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
     </Grid>
 </UserControl>

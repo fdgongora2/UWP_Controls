@@ -43,7 +43,7 @@ namespace ClassLibraryPanelCircular
                 y = Math.Sin(count * angulo) * radio;
                 Point anchorPoint = new Point(x + radio, y + radio);
                 child.Arrange(new Rect(anchorPoint, child.DesiredSize));
-                child.RenderTransform = new Transform(1,1,1);
+               
                 count++;
             }
             return finalSize;

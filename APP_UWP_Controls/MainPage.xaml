@@ -5,25 +5,31 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Custom="using:ClassLibraryBotonDegradado"
-    xmlns:Panel="using:CLPanelEscalera"
+    
+    xmlns:Panel="using:CLPanelEquitativo"
     x:Class="APP_UWP_Controls.MainPage"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
 
-        <Panel:PanelEscalera >
+        <Panel:CPanelEquitativo >
     
             <TextBlock>1</TextBlock>
             <TextBlock>2</TextBlock>
             <TextBlock>3</TextBlock>
-            <TextBlock>4</TextBlock>
+        <StackPanel Orientation="Horizontal">
+        <TextBox Header="Edad" Width="200"></TextBox>
+        <TextBox Header="Edad" Width="200"></TextBox>
+        </StackPanel>
+        <TextBox Header="Edad" Width="200"></TextBox>
+        <TextBlock>4</TextBlock>
             <TextBlock>5</TextBlock>
             <TextBlock>6</TextBlock>
             <TextBlock>7</TextBlock>
-            <TextBox Header="Edad" Width="200"></TextBox>
+            
             <TextBox Header="Altura" Width="400"></TextBox>
 
 
-    </Panel:PanelEscalera>
+    </Panel:CPanelEquitativo>
 
 </Page>
